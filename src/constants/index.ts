@@ -65,19 +65,19 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "3D Artist",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "3D Modeler",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Texture Artist",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Humanoid Character",
     icon: creator,
   },
 ] as const;
@@ -141,7 +141,7 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
+    title: "3D Artist",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
@@ -154,7 +154,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "3D Modeler",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -167,7 +167,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Texture Artist",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
@@ -180,7 +180,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Humanoid Character",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
