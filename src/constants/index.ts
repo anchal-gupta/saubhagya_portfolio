@@ -36,6 +36,11 @@ import {
   linkedin,
   twitter,
   github,
+  grenade,
+  prison,
+  shot,
+  artstation,
+  artstation_logo,
 } from "../assets";
 
 // Navbar Links
@@ -56,9 +61,9 @@ export const NAV_LINKS = [
     link: null,
   },
   {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    id: "art-station",
+    title: "Art Station",
+    link: "https://www.artstation.com/saubhagyagupta4",
   },
 ] as const;
 
@@ -142,54 +147,54 @@ export const TECHNOLOGIES = [
 export const EXPERIENCES = [
   {
     title: "3D Artist",
-    company_name: "Starbucks",
+    company_name: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Modeling and texturing 3D assets for games and animations.",
+      "Creating realistic lighting and rendering for high-quality visual effects.",
+      "Optimizing models for performance and game engine compatibility.",
+      "Collaborating with game developers to ensure assets meet project requirements.",
     ],
   },
   {
     title: "3D Modeler",
-    company_name: "Tesla",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Modeling and texturing 3D assets for games and animations.",
+      "Creating realistic lighting and rendering for high-quality visual effects.",
+      "Optimizing models for performance and game engine compatibility.",
+      "Collaborating with game developers to ensure assets meet project requirements.",
     ],
   },
   {
     title: "Texture Artist",
-    company_name: "Shopify",
+    company_name: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Modeling and texturing 3D assets for games and animations.",
+      "Creating realistic lighting and rendering for high-quality visual effects.",
+      "Optimizing models for performance and game engine compatibility.",
+      "Collaborating with game developers to ensure assets meet project requirements.",
     ],
   },
   {
     title: "Humanoid Character",
-    company_name: "Meta",
+    company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Modeling and texturing 3D assets for games and animations.",
+      "Creating realistic lighting and rendering for high-quality visual effects.",
+      "Optimizing models for performance and game engine compatibility.",
+      "Collaborating with game developers to ensure assets meet project requirements.",
     ],
   },
 ] as const;
@@ -225,158 +230,158 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Defensive Grenade",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Modeled a detailed defensive grenade in Maya with precise proportions and realistic design. Textured in Substance Painter for a high-quality finish and rendered in Marmoset Toolbag with accurate lighting and reflections. Gained experience in the full 3D asset pipeline, focusing on creativity and precision.",
     tags: [
       {
-        name: "react",
+        name: "maya",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "substance painter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "marmoset toolbag",
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
+    image: grenade,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    live_site_link: "https://www.artstation.com/artwork/mAAGDv",
   },
   {
-    name: "Golds Gym",
+    name: "Wooden Prison cell",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "Recreated a low-poly wooden prison cell with clean geometry and game-ready optimization, inspired by concept art. Modeled in Autodesk Maya, sculpted in ZBrush, and rendered in Unreal Engine to create an immersive presentation. This project enhanced my workflow, technical skills, and Unreal Engine expertise.",
     tags: [
       {
-        name: "react",
+        name: "ZBrush",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Unreal Engine",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Maya",
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
+    image: prison,
     source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    live_site_link: "https://www.artstation.com/artwork/YGrW53",
   },
   {
-    name: "Shoppy",
+    name: "Swagman M1 - Low-Poly 3D Gaming Model",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Modeled in Maya with optimized topology for real-time rendering.Textured in Substance Painter, focusing on realistic wear and material accuracy.Animated with moving tires and integrated into a fully designed Unreal Engine environment featuring realistic lighting and terrain.Overcame challenges in animation and environment setup, gaining valuable Unreal Engine experience.The project marked a milestone in asset integration, animation, and environment creation.",
     tags: [
       {
-        name: "react",
+        name: "Autodesk Maya",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "Unreal Engine",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Photoshop",
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
+    image: shot,
     source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    live_site_link: "#",
   },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+  // {
+  //   name: "TikTok Clone",
+  //   description:
+  //     "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project4,
+  //   source_code_link: "https://github.com/sanidhyy/tiktok-clone",
+  //   live_site_link: "https://tiktok-clone-react.vercel.app/",
+  // },
+  // {
+  //   name: "Cryptoverse",
+  //   description:
+  //     "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "rapidapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project5,
+  //   source_code_link: "https://github.com/sanidhyy/crypto-app",
+  //   live_site_link: "https://reactjscryptoapp.netlify.app/",
+  // },
+  // {
+  //   name: "Travel Advisor",
+  //   description:
+  //     "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "rapidapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "material-ui",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project6,
+  //   source_code_link: "https://github.com/sanidhyy/travel-advisor",
+  //   live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+  // },
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
+  // {
+  //   name: "YouTube",
+  //   icon: youtube,
+  //   link: "https://www.youtube.com/@OPGAMER.",
+  // },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/saubhagya-gupta/",
   },
+  // {
+  //   name: "Twitter",
+  //   icon: twitter,
+  //   link: "https://twitter.com/TechnicalShubam",
+  // },
   {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
-  {
-    name: "GitHub",
-    icon: github,
-    link: "https://github.com/sanidhyy",
+    name: "Artstation",
+    icon: artstation_logo,
+    link: "https://www.artstation.com/saubhagyagupta4",
   },
 ] as const;
