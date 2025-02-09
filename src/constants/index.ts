@@ -23,24 +23,24 @@ import {
   tesla,
   shopify,
   threejs,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
   user1,
   user2,
   user3,
-  youtube,
   linkedin,
-  twitter,
-  github,
   grenade,
   prison,
   shot,
-  artstation,
   artstation_logo,
+  photoshop,
+  maya,
+  marmoset,
+  unreal,
+  zbrush,
+  substance,
+  marvelous,
+  illustrator,
+  ThreeDCoat,
+  materialise,
 } from "../assets";
 
 // Navbar Links
@@ -90,56 +90,48 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Photoshop",
+    icon: photoshop,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Marvelous Designer",
+    icon: marvelous,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Marmoset Toolbag",
+    icon: marmoset,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Maya",
+    icon: maya,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Unreal Engine",
+    icon: unreal,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "ZBrush",
+    icon: zbrush,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Substance Painter",
+    icon: substance,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Illustrator",
+    icon: illustrator,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "3D Coat",
+    icon: ThreeDCoat,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Materialize",
+    icon: materialise,
   },
 ] as const;
 

@@ -147,7 +147,7 @@ export const Contact = () => {
                 id="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="What's your name?"
                 title="What's your name?"
                 disabled={loading}
                 aria-disabled={loading}
@@ -169,7 +169,7 @@ export const Contact = () => {
                 id="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="johndoe@email.com"
+                placeholder="What's your email?"
                 title="What's your email?"
                 disabled={loading}
                 aria-disabled={loading}
@@ -191,7 +191,7 @@ export const Contact = () => {
                 id="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="Hello there!"
+                placeholder="What do you want to say?"
                 title="What do you want to say?"
                 disabled={loading}
                 aria-disabled={loading}

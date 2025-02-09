@@ -43,6 +43,18 @@ import shot from "./projects/shot.png";
 import artstation from "./artstation.png";
 import artstation_logo from "./artstation_logo.png";
 
+/* logo */
+import photoshop from "./logo/photoshop.jpg";
+import maya from "./logo/maya.png";
+import marmoset from "./logo/marmoset.png";
+import unreal from "./logo/unreal.jpg";
+import zbrush from "./logo/zbrush.png";
+import substance from "./logo/substance-3d-painter.png";
+import marvelous from "./logo/Marvelous-Designer.png";
+import illustrator from "./logo/illustrator.avif";
+import ThreeDCoat from "./logo/3DCoat.jpg";
+import materialise from "./logo/materialize.jpeg";
+
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
 import user3 from "./testimonials/user3.jpg";
@@ -97,4 +109,14 @@ export {
   shot,
   artstation,
   artstation_logo,
+  photoshop,
+  maya,
+  marmoset,
+  unreal,
+  zbrush,
+  substance,
+  marvelous,
+  illustrator,
+  ThreeDCoat,
+  materialise,
 };

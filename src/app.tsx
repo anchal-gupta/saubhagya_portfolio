@@ -13,6 +13,7 @@ import {
 } from "./components";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
+import { MyWorks } from "./components/myworks";
 
 // App
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        {/* <MyWorks /> */}
         <Experience />
         <Tech />
         <Works />
