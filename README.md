@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<!-- <a name="readme-top"></a>
 
 # Modern 3D Portfolio using React, Three.js and Typescript
 
@@ -11,10 +11,10 @@
 [![Github commits](https://flat.badgen.net/github/commits/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/commits "Github commits")
 [![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/issues "GitHub issues")
 [![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/3d-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/3d-portfolio/pulls "GitHub pull requests")
-[![Netlify status](https://api.netlify.com/api/v1/badges/5c77ba92-e2f5-468e-99f1-3543906a90cb/deploy-status)](https://shubam.netlify.app/ "Netlify status")
+[![Netlify status](https://api.netlify.com/api/v1/badges/5c77ba92-e2f5-468e-99f1-3543906a90cb/deploy-status)](https://shubam.netlify.app/ "Netlify status") -->
 
 <!-- Table of Contents -->
-<details>
+<!-- <details>
 
 <summary>
 
@@ -266,4 +266,29 @@ You can also give this repository a star to show more people and they can use th
 </a>
 
 <br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+Hello, I'm Saubhagya.
+
+## Usage
+
+Visit my website to see my works and get in touch with me here - https://saubhagya-portfolio.vercel.app/
+
+## Created By
+
+This website was crafted with ❤️ by [Anchal Gupta](https://github.com/anchal-gupta) 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://www.linkedin.com/in/gupta-anchal/)
+
+## Screenshots
+
+![Saubhagya 3D Artist Portfolio](/.github/images/img_main.png "Saubhagya 3D Artist Portfolio")
+
+## Contact
+
+- Email: happysaubhagya@gmail.com
+- Website: [Saubhagya's Portfolio](https://saubhagya-portfolio.vercel.app/)
+
+## Acknowledgments
+
+- https://github.com/sanidhyy
