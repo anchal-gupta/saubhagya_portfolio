@@ -147,7 +147,7 @@ export const EXPERIENCES = [
   {
     title: "Texture Artist",
     company_name: "",
-    icon: ThreeDCoat,
+    icon: marvelous,
     iconBg: "#383E56",
     date: "",
     points: [
