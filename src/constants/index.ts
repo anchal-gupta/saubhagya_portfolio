@@ -24,6 +24,7 @@ import {
   illustrator,
   ThreeDCoat,
   materialise,
+  orc,
 } from "../assets";
 
 // Navbar Links
@@ -204,6 +205,28 @@ export const TESTIMONIALS = [
 
 // Projects
 export const PROJECTS = [
+  {
+    name: "Orc (Warcraft's grommash hellscream)",
+    description:
+      "Detailed Orc character model crafted using Autodesk Maya and ZBrush, featuring intricate sculptural details. High-quality render produced in ZBrush for maximum realism. The project involved complex challenges in baking, sculpting, and modeling, leading to refined technical skills and improved workflow efficiency. The development process enhanced expertise in 3D modeling, texturing, and rendering while strengthening understanding of the complete asset creation pipeline.",
+    tags: [
+      {
+        name: "maya",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Z Brush",
+        color: "green-text-gradient",
+      },
+      {
+        name: "marmoset toolbag",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: orc,
+    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    live_site_link: "https://www.artstation.com/artwork/4NPKxl",
+  },
   {
     name: "Defensive Grenade",
     description:

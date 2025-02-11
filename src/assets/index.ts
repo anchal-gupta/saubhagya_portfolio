@@ -38,6 +38,7 @@ import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
 
 import grenade from "./projects/grenade.png";
+import orc from "./projects/orc.jpeg";
 import prison from "./projects/prison.png";
 import shot from "./projects/shot.png";
 import artstation from "./artstation.png";
@@ -119,4 +120,5 @@ export {
   illustrator,
   ThreeDCoat,
   materialise,
+  orc,
 };

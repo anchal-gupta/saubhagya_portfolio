@@ -25,13 +25,13 @@ const ProjectCard = ({
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
     <Tilt
       options={{
-        max: 45,
+        max: 20,
         scale: 1,
-        speed: 450,
+        speed: 650,
       }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] md:w-[480px] lg:w-[540px] w-full"
     >
-      <div className="relative w-full h-[230px]">
+      <div className="relative w-full h-[400px]">
         {/* Work image */}
         <img
           src={image}
@@ -114,7 +114,7 @@ export const Works = () => {
         </div>
 
         {/* Project Card */}
-        <div className="mt-20 flex flex-wrap gap-7">
+        <div className="mt-20 flex flex-wrap justify-center gap-7 max-w-7xl mx-auto">
           {PROJECTS.map((project, i) => (
             <ProjectCard key={`project-${i}`} index={i} {...project} />
           ))}

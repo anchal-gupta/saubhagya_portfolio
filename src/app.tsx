@@ -14,6 +14,7 @@ import {
 import Banner from "./components/banner";
 import Footer from "./components/footer";
 import { MyWorks } from "./components/myworks";
+import { Analytics } from "@vercel/analytics/react";
 
 // App
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <Analytics />
       <Banner hide={true} setHide={setHide} />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
