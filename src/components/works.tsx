@@ -12,6 +12,16 @@ type ProjectCardProps = (typeof PROJECTS)[number] & {
   index: number;
 };
 
+// Add this to your CSS/styles file
+const mobileStyles = `
+  @media (max-width: 768px) {
+    .card-animation {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+`;
+
 // Project Card
 const ProjectCard = ({
   index,
@@ -22,7 +32,10 @@ const ProjectCard = ({
   source_code_link,
   live_site_link,
 }: ProjectCardProps) => (
-  <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+  <motion.div
+    variants={fadeIn("up", "spring", index * 0.2, 0.5)}
+    className="card-animation"
+  >
     <Tilt
       options={{
         max: 20,
@@ -92,24 +105,41 @@ const ProjectCard = ({
 export const Works = () => {
   return (
     <SectionWrapper>
+      <style>{mobileStyles}</style>
       <>
-        {/* Title */}
-        <motion.div variants={textVariant()}>
+        {/* Title - Mobile version without motion */}
+        <div className="md:hidden">
+          <p className={styles.sectionSubText}>My Work</p>
+          <h2 className={styles.sectionHeadText}>Projects.</h2>
+        </div>
+
+        {/* Title - Desktop/tablet version with motion */}
+        <motion.div variants={textVariant()} className="hidden md:block">
           <p className={styles.sectionSubText}>My Work</p>
           <h2 className={styles.sectionHeadText}>Projects.</h2>
         </motion.div>
 
         {/* About */}
         <div className="w-full flex">
+          {/* Mobile version - no motion */}
+          <p className="md:hidden mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+            The following projects showcase expertise in 3D modeling, texturing,
+            and rendering. Each piece demonstrates attention to detail,
+            technical proficiency, and artistic vision. From high-poly sculpts
+            to game-ready assets, explore these works in detail on ArtStation
+            with comprehensive breakdowns of the creative process.
+          </p>
+
+          {/* Desktop/tablet version - with motion */}
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            className="hidden md:block mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            The following projects showcase my expertise in 3D modeling, texturing, 
-            and rendering. Each piece demonstrates my attention to detail, technical 
-            proficiency, and artistic vision. From high-poly sculpts to game-ready 
-            assets, you can explore my work in detail on ArtStation with comprehensive 
-            breakdowns of my creative process.
+            The following projects showcase expertise in 3D modeling, texturing,
+            and rendering. Each piece demonstrates attention to detail,
+            technical proficiency, and artistic vision. From high-poly sculpts
+            to game-ready assets, explore these works in detail on ArtStation
+            with comprehensive breakdowns of the creative process.
           </motion.p>
         </div>
 

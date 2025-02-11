@@ -62,8 +62,14 @@ export const Experience = () => {
   return (
     <SectionWrapper idName="work">
       <>
-        {/* Title */}
-        <motion.div variants={textVariant()}>
+        {/* Title - Mobile version without motion */}
+        <div className="md:hidden">
+          <p className={styles.sectionSubText}>What I have done so far</p>
+          <h2 className={styles.sectionHeadText}>Skills.</h2>
+        </div>
+
+        {/* Title - Desktop/tablet version with motion */}
+        <motion.div variants={textVariant()} className="hidden md:block">
           <p className={styles.sectionSubText}>What I have done so far</p>
           <h2 className={styles.sectionHeadText}>Skills.</h2>
         </motion.div>
