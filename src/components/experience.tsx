@@ -64,14 +64,14 @@ export const Experience = () => {
       <>
         {/* Title - Mobile version without motion */}
         <div className="md:hidden">
-          <p className={styles.sectionSubText}>What I have done so far</p>
-          <h2 className={styles.sectionHeadText}>Skills.</h2>
+          <p className={styles.sectionSubText}>My artistic journey so far</p>
+          <h2 className={styles.sectionHeadText}>Experience.</h2>
         </div>
 
         {/* Title - Desktop/tablet version with motion */}
         <motion.div variants={textVariant()} className="hidden md:block">
-          <p className={styles.sectionSubText}>What I have done so far</p>
-          <h2 className={styles.sectionHeadText}>Skills.</h2>
+          <p className={styles.sectionSubText}>My artistic journey so far</p>
+          <h2 className={styles.sectionHeadText}>Experience.</h2>
         </motion.div>
 
         {/* Experience Card */}
