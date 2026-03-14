@@ -10,6 +10,10 @@ type ComputersProps = {
 };
 
 const canUseWebGL = () => {
+  if (typeof document === "undefined") {
+    return true;
+  }
+
   const canvas = document.createElement("canvas");
 
   return !!(
@@ -20,6 +24,10 @@ const canUseWebGL = () => {
     canvas.getContext("experimental-webgl")
   );
 };
+
+const getIsMobile = () =>
+  typeof window !== "undefined" &&
+  window.matchMedia("(max-width: 500px)").matches;
 
 const HeroFallback = () => {
   return (
@@ -73,18 +81,22 @@ const Computers = ({ isMobile }: ComputersProps) => {
 // Computer Canvas
 const ComputersCanvas = () => {
   // state to check mobile
-  const [isMobile, setIsMobile] = useState(false);
-  const [showFallback, setShowFallback] = useState(() => !canUseWebGL());
+  const [isMobile, setIsMobile] = useState(getIsMobile);
+  const [showFallback, setShowFallback] = useState(
+    () => !getIsMobile() && !canUseWebGL(),
+  );
 
   // Check if device is Mobile
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     setIsMobile(mediaQuery.matches);
+    setShowFallback(!mediaQuery.matches && !canUseWebGL());
 
     // handle screen size change
     const handleMediaQueryChange = (event: MediaQueryListEvent) => {
-      setIsMobile(event?.matches);
+      setIsMobile(event.matches);
+      setShowFallback(!event.matches && !canUseWebGL());
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
@@ -93,6 +105,10 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
+
+  if (isMobile) {
+    return null;
+  }
 
   if (showFallback) {
     return <HeroFallback />;
